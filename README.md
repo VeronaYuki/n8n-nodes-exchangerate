@@ -162,38 +162,13 @@ export class SuaApi implements ICredentialType {
 }
 ```
 
-## Passo 5: Criar o Arquivo Codex (Metadados)
-
-O arquivo codex fica em `nodes/SeuNode/SeuNode.node.json`:
-
-```json
-{
-	"node": "n8n-nodes-base.SeuNode",
-	"nodeVersion": "1.0",
-	"codexVersion": "1.0",
-	"categories": ["Categoria"],
-	"resources": {
-		"credentialDocumentation": [
-			{
-				"url": "https://docs.exemplo.com/credentials"
-			}
-		],
-		"primaryDocumentation": [
-			{
-				"url": "https://docs.exemplo.com"
-			}
-		]
-	}
-}
-```
-
-## Passo 6: Adicionar Ícone
+## Passo 5: Adicionar Ícone
 
 1. Crie ou baixe um ícone SVG
 2. Salve em `nodes/SeuNode/icone.svg`
 3. Opcionalmente, crie uma versão escura: `icone.dark.svg`
 
-## Passo 7: Atualizar package.json
+## Passo 6: Atualizar package.json
 
 Atualize o `package.json` com as informações do seu nó:
 
@@ -214,7 +189,7 @@ Atualize o `package.json` com as informações do seu nó:
 }
 ```
 
-## Passo 8: Compilar o Nó
+## Passo 7: Compilar o Nó
 
 ```bash
 npm run build
@@ -224,7 +199,7 @@ Este comando:
 - Compila o TypeScript para JavaScript
 - Copia os arquivos necessários para a pasta `dist/`
 
-## Passo 9: Testar o Nó Localmente
+## Passo 8: Testar o Nó Localmente
 
 ### Opção 1: Usando n8n-node dev (Recomendado)
 
@@ -254,7 +229,7 @@ npm link n8n-nodes-seu-nome
 n8n start
 ```
 
-## Passo 10: Usar o Nó no n8n
+## Passo 9: Usar o Nó no n8n
 
 1. Abra o n8n no navegador (`http://localhost:5678`)
 2. Crie um novo workflow
@@ -323,4 +298,5 @@ npm run lint
 
 # Corrigir erros automaticamente
 npm run lint:fix
+
 

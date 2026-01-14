@@ -7,7 +7,7 @@ class Exchangerate {
         this.description = {
             displayName: 'Exchange Rate',
             name: 'exchangeRate',
-            icon: { light: 'file:exchangerate.svg', dark: 'file:exchangerate.dark.svg' },
+            icon: 'file:capimlogo.svg',
             group: ['transform'],
             version: 1,
             subtitle: '={{$parameter["operation"]}}',
