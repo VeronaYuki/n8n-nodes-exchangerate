@@ -1,6 +1,6 @@
-# Tutorial: Como Criar um Nó Customizado no n8n
+# Criando um Nó Customizado no n8n
 
-Este tutorial mostra como criar um nó customizado para o n8n, passo a passo, usando o exemplo do Exchange Rate API.
+Este readme mostra como criar um nó customizado para o n8n, passo a passo, usando o exemplo do Exchange Rate API.
 
 ## Pré-requisitos
 
